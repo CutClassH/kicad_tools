@@ -1,5 +1,5 @@
-import kisexp as sexp
-import pcbnew as pn
+from . import kisexp as sexp
+from . import pcbnew as pn
 import io
 import traceback
 

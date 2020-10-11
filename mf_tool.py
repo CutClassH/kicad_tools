@@ -5,10 +5,10 @@ import csv
 import re
 import sys
 import os
-import gerber_drill as gd
+from . import gerber_drill as gd
 import wx
 import io
-import loadnet
+from . import loadnet
 import traceback
 
 class RefBuilder:
